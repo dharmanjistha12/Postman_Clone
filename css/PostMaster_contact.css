@@ -1,0 +1,105 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Anek Malayalam', sans-serif;
+}
+#navBox{
+	display: none;
+}
+#navbar {
+	display: block;
+	background-color: black;
+	color: rgb(250, 186, 66);
+	height: 60px;
+}
+
+#navbar ul {
+	display: flex;
+	margin: 0px 30px;
+	list-style: none;
+}
+
+#icon {
+	font-size: 22px;
+	margin-right: 10px;
+
+}
+
+#navbar ul li {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#navbar ul li a {
+	color: rgb(250, 186, 66);
+	text-decoration: none;
+	margin: 3px;
+	font-size: 17px;
+	padding: 10px;
+}
+.alertBox{
+	height: 40px;
+	width: 1481px;
+	margin: 5px 10px;
+	background-color: rgb(255, 220, 154);
+	color: rgb(114, 35, 35);
+	border-radius: 5px;
+	text-align: center;
+	font-size: 20px;
+}
+#contact h1{
+	color: rgb(245, 183, 67);
+	text-align: center;
+	margin-top: 122px;
+	margin-bottom: 30px;
+}
+.parak {
+	width: 386px;
+	height: 37px;
+	border-radius: 4px;
+	border: 2px solid rgb(175, 173, 173);
+	margin: 10px 10px 20px 0px;
+	font-size: 17px;
+	text-indent: 20px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 563px;
+
+}
+
+.parak::-webkit-input-placeholder {
+	font-size: 17px;
+	padding: 12px;
+}
+
+.parak:focus {
+	box-shadow: 0 0 5px rgb(241, 186, 82);
+	outline-color: rgb(248, 192, 88);
+	padding: 2px 0px 2px 0px;
+}
+#messageBox{
+	height: 80px;
+}
+#submit {
+	background-color: rgb(250, 186, 66);
+	color: black;
+	height: 40px;
+	border-radius: 5px;
+	margin-top: 12px;
+	font-size: 17px;
+
+	width: 380px;
+}
+#submit:hover{
+	cursor: pointer;
+	background-color: rgb(247, 177, 47);
+}
+#contact{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.parak{
+	margin-left: 0vw;
+}

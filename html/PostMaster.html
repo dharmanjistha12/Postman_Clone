@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Postmaster</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;400&family=Orbitron&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="../css/prism.css">
+	<link rel="stylesheet" href="../css/PostMaster.css">
+	<link rel="stylesheet" media="screen and (max-width: 1170px)" href="../css/PostMaster_iPad.css">
+	<link rel="stylesheet" media="screen and (max-width: 540px)" href="../css/PostMaster_Phone.css">
+</head>
+
+<body>
+	<nav id="navbar">
+		<ul>
+			<li id="icon"> <b>PostMaster</b> </li>
+			<li><a href="http://127.0.0.1:5500/Project6/html/PostMaster.html">Home</a></li>
+			<li><a href="http://127.0.0.1:5500/Project6/html/PostMaster_about.html">About</a></li>
+			<li><a href="http://127.0.0.1:5500/Project6/html/PostMaster_contact.html">Contact Us</a></li>
+		</ul>
+	</nav>
+	<div id="navBox">
+		<div id="icn">
+			<p><strong>PostMaster</strong> </p>
+			<div id="navi">
+				<br>
+				<img id="menu" class="btn" src="../imgs/drop-down-menu.png" >
+			</div>
+		</div>
+	</div>
+	<div id="alerting"></div>
+
+	<div id="options">
+	</div>
+	<div id="totalBox">
+		<p id="welcome">Welcome to PostMaster</p>
+		<div id="secondary-box">
+			<div class="formEle">
+				<label for="url" class="col-form-label">URL</label>
+				<br>
+				<input type="text" class="form-control" id="url" placeholder="Enter URL here">
+
+			</div>
+			<div class="formEle">
+				<legend>Request Type</legend>
+				<div>
+					<div>
+						<input class="formRadio1" type="radio" name="requestType" id="get" value="GET" checked>
+						<label class=" -label" for="get">
+							GET
+						</label>
+					</div>
+					<div class=" ">
+						<input class="formRadio1" type="radio" name="requestType" id="post" value="POST">
+						<label class=" -label" for="post">
+							POST
+						</label>
+					</div>
+
+				</div>
+			</div>
+			<div class="formEle">
+				<legend>Content Type</legend>
+				<div>
+					<div>
+						<input class="formRadio1" type="radio" name="contentType" id="jsonRadio" value="json" checked>
+						<label class=" -label" for="json">
+							JSON
+						</label>
+					</div>
+					<div class=" ">
+						<input class="formRadio1" type="radio" name="contentType" id="paramsRadio" value="params">
+						<label for="params">
+							Custom Parameters
+						</label>
+					</div>
+
+				</div>
+			</div>
+			<div id="parametersBox">
+				<div class="parachute">
+					<label for="url" class="p1 ">Parameter 1</label>
+					<div class="col-md-4">
+						<input type="text" class="parak" id="parameterKey1" placeholder="Enter Parameter 1 Key">
+					</div>
+					<div class="col-md-4">
+						<input type="text" class="parak" id="parameterValue1" placeholder="Enter Parameter 1 Value">
+					</div>
+					<button id="addParam" class="btn addParambtn">+</button>
+				</div>
+				<div id="params"></div>
+			</div>
+			<div id="requestJsonBox">
+				<div class="formEle">
+					<label id="l1" for="requestJsonText">Enter Request Json</label>
+					<br>
+
+					<div>
+						<textarea class="form-control" id="requestJsonText"></textarea>
+					</div>
+				</div>
+			</div>
+			<button id="submit" class="btn">Submit</button>
+			<div id="rBox">
+				<label for="responseJsonText">Response</label>
+				<br>
+				<pre id='responsePre'
+					class="language-javascript"> <code id='responsePrism' class="language-javascript"> Your response will appear here </code> </pre>
+
+			</div>
+		</div>
+	</div>
+</body>
+<script src="../js/PostMaster.js"></script>
+<script src="../js/prism.js"></script>
+
+</html>

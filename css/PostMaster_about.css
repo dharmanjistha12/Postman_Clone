@@ -1,0 +1,48 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Anek Malayalam', sans-serif;
+}
+
+#navbar {
+	background-color: black;
+	color: rgb(250, 186, 66);
+	height: 60px;
+}
+#navBox{
+	display: none;
+}
+#navbar ul {
+	display: flex;
+	margin: 0px 30px;
+	list-style: none;
+}
+
+#icon {
+	font-size: 22px;
+	margin-right: 10px;
+
+}
+
+#navbar ul li {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#navbar ul li a {
+	color: rgb(250, 186, 66);
+	text-decoration: none;
+	margin: 3px;
+	font-size: 17px;
+	padding: 10px;
+}
+#about h1{
+	color: rgb(245, 183, 67);
+	text-align: center;
+	margin-top: 122px;
+	margin-bottom: 30px;
+}
+#about p{
+	font-size: 20px;
+	text-align: center;
+}

@@ -1,0 +1,22 @@
+.parachute{
+	flex-direction: column;
+}
+.parak{
+	width: max-content;
+}
+#url{
+	width: max-content;
+
+}
+#submit{
+	width: 55vw;
+}
+.alertBox{
+	width: 95vw;
+	word-wrap: normal;
+	height: max-content;
+}
+#requestJsonText{
+	width: 66vw;
+	
+}
